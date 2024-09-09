@@ -1,312 +1,305 @@
 import webLink from "../../assets/images/links/globe2.svg";
-import dribbbleLink from "../../assets/images/links/dribbble.svg";
 import gitLink from "../../assets/images/links/github.svg";
-import ytLink from "../../assets/images/links/youtube.svg";
 
-import portfolio from "../../assets/images/projects/portfolio.png";
-import livrator from "../../assets/images/projects/livrator.png";
-import ghicicuvantul from "../../assets/images/projects/gc.png";
-import cryptocurrency from "../../assets/images/projects/cc.png";
-import traveldeck from "../../assets/images/projects/td.png";
-import xboxdash from "../../assets/images/projects/xd.png";
-import framerbtn from "../../assets/images/projects/framerbtn.png";
-import doticons from "../../assets/images/projects/doticons.png";
-import cs2btn from "../../assets/images/projects/cs2btn.png";
-import exploreasy from "../../assets/images/projects/exploreasy.png";
-import storybookgenie from "../../assets/images/projects/storybookgenie.png";
-import azurecloudexams from "../../assets/images/projects/azurecloudexams.png";
-import habithero from "../../assets/images/projects/habithero.png";
+import antmons from "../../assets/images/projects/antmons.png";
+import appics_web from '../../assets/images/projects/appics_web.png';
+import breadwinner from '../../assets/images/projects/breadwinner.png';
+import bumble_web from '../../assets/images/projects/bumble_web.png';
+import ez from '../../assets/images/projects/ez.png';
+import huddle_web from '../../assets/images/projects/huddle_web.png';
+import payeer_web from '../../assets/images/projects/payeer_web.png';
+import riot from '../../assets/images/projects/riot.png';
+import robotos from '../../assets/images/projects/robotos.png';
+import rollers from '../../assets/images/projects/rollers.png';
+import singlife_web from '../../assets/images/projects/singlife_web.png';
+import spherium from '../../assets/images/projects/spherium.png';
+import tired from '../../assets/images/projects/tired.png';
 
-import geex from "../../assets/images/projects/geex.png";
-import tla from "../../assets/images/projects/tla.png";
-import arbachelor from "../../assets/images/projects/bachelor.png";
-import arlgtv from "../../assets/images/projects/arlg.png";
-import ardissertation from "../../assets/images/projects/dissertation.png";
-import arop7 from "../../assets/images/projects/arop7.png";
-import castleescape from "../../assets/images/projects/castleescape.png";
+import appics from "../../assets/images/projects/appics.png";
+import bordeaux from "../../assets/images/projects/bordeaux.png";
+import huddle from "../../assets/images/projects/huddle.png";
+import payeer from "../../assets/images/projects/payeer.png";
+import happy from '../../assets/images/projects/happy.png';
+import birdslover from '../../assets/images/projects/birdslover.png';
+import hospital from '../../assets/images/projects/hospital.png';
 
-import smarthome from "../../assets/images/projects/smarthome.png";
-import godofwar from "../../assets/images/projects/godofwar.png";
-import itlogo from "../../assets/images/projects/intimelogo.png";
-import nyoologo from "../../assets/images/projects/ntoologo.png";
-import btnanim from "../../assets/images/projects/btnAnim.png";
-import navui from "../../assets/images/projects/navui.png";
-import mplogo from "../../assets/images/projects/mplogo.png";
-import discoverro from "../../assets/images/projects/discover-ro.png";
-import vclp from "../../assets/images/projects/vclp.png";
-import vibenow from "../../assets/images/projects/vibenow.png";
-import dynamicmenu from "../../assets/images/projects/dynamicmenu.png";
-import goomenu from "../../assets/images/projects/goomenu.png";
+import crypto_forecast from '../../assets/images/projects/crypto_forcast.png';
+import meetmind from '../../assets/images/projects/meetmind.png';
+import textshine from '../../assets/images/projects/textshine.png';
+import ai_generator from '../../assets/images/projects/ai_generator.png';
+import autogpt from '../../assets/images/projects/autogpt.png';
 
 export const web = [
   {
-    name: "Portfolio",
-    date: "2022-05-08",
-    cover: portfolio,
+    name: 'Antmons',
+    date: '2022-05-08',
+    cover: antmons,
     links: [
-      { icon: gitLink, link: "https://github.com/eduardconstantin/eduardconstantin.github.io" },
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/18191630-Personal-Portfolio-Website" },
-    ],
-  },
-  {
-    name: "Livrator.ro",
-    date: "2022-04-30",
-    cover: livrator,
-    links: [
-      { icon: webLink, link: "https://www.livrator.ro" },
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/18250483-Livrator-ro-Website" },
-    ],
-  },
-  {
-    name: "Xbox Dashboard",
-    date: "2022-03-06",
-    cover: xboxdash,
-    links: [{ icon: dribbbleLink, link: "https://dribbble.com/shots/17656116-Xbox-Dashboard-Animation" }],
-  },
-  {
-    name: "Crypto Currencies",
-    date: "2021-10-21",
-    cover: cryptocurrency,
-    links: [
-      { icon: gitLink, link: "https://github.com/eduardconstantin/Top-three-crypto" },
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/16701637-Top-three-cryptocurrencies" },
-    ],
-  },
-  {
-    name: "Travel Deck",
-    date: "2021-11-16",
-    cover: traveldeck,
-    links: [{ icon: dribbbleLink, link: "https://dribbble.com/shots/16874996-Travel-Deck" }],
-  },
-  {
-    name: "Navigation Menu Animation",
-    date: "2022-03-20",
-    cover: navui,
-    links: [
-      { icon: gitLink, link: "https://github.com/eduardconstantin/react-motion-components" },
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/17766382-Navigation-menu-Animation-concept" },
       {
         icon: webLink,
-        link: "https://react-motion-components.vercel.app/?path=/docs/components-menus-navigation-menu--docs",
-      },
-    ],
+        link: 'https://antmons.com/'
+      }
+    ]
   },
   {
-    name: "Comic-book Button Animation",
-    date: "2022-05-01",
-    cover: btnanim,
+    name: 'Appics',
+    date: '2022-04-30',
+    cover: appics_web,
+    links: [{ icon: webLink, link: 'https://appics.com/' }]
+  },
+  {
+    name: 'BreadWinner',
+    date: '2022-03-06',
+    cover: breadwinner,
     links: [
-      { icon: gitLink, link: "https://github.com/eduardconstantin/react-motion-components" },
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/18145123-Button-Animation" },
       {
         icon: webLink,
-        link: "https://react-motion-components.vercel.app/?path=/docs/components-buttons-comic-book-button--docs",
-      },
-    ],
+        link: 'https://breadwinnersnft.io/'
+      }
+    ]
   },
   {
-    name: "Dynamic Menu",
-    date: "2022-09-18",
-    cover: dynamicmenu,
+    name: 'Bumble',
+    date: '2021-10-21',
+    cover: bumble_web,
     links: [
-      { icon: gitLink, link: "https://github.com/eduardconstantin/react-motion-components" },
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/19413730-Dynamic-Menu" },
       {
         icon: webLink,
-        link: "https://react-motion-components.vercel.app/?path=/docs/components-menus-dynamic-menu--docs",
-      },
-    ],
+        link: 'https://bumble.com/'
+      }
+    ]
   },
   {
-    name: "Framer AI Button",
-    date: "2023-03-26",
-    cover: framerbtn,
+    name: 'EZ',
+    date: '2021-11-16',
+    cover: ez,
     links: [
-      { icon: gitLink, link: "https://github.com/eduardconstantin/react-motion-components" },
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/21022811--Framer-AI-Button" },
       {
         icon: webLink,
-        link: "https://react-motion-components.vercel.app/?path=/docs/components-buttons-framer-ai-button--docs",
-      },
-    ],
+        link: 'https://ez-nft.io/'
+      }
+    ]
   },
   {
-    name: "Doticons",
-    date: "2023-07-17",
-    cover: doticons,
+    name: 'Huddle',
+    date: '2022-03-20',
+    cover: huddle_web,
     links: [
-      { icon: gitLink, link: "https://github.com/eduardconstantin/doticons" },
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/22023265-Doticons-A-collection-of-minimal-dot-icons" },
-      { icon: webLink, link: "https://doticons-website.vercel.app" },
-    ],
-  },
-  {
-    name: "Counter-Strike 2 Button",
-    date: "2023-09-11",
-    cover: cs2btn,
-    links: [
-      { icon: gitLink, link: "https://github.com/eduardconstantin/react-motion-components" },
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/22517905-Counter-Strike-2-Button" },
       {
         icon: webLink,
-        link: "https://react-motion-components.vercel.app/?path=/docs/components-buttons-counter-strike-2-button--docs",
-      },
-    ],
+        link: 'https://huddle-health.com/'
+      }
+    ]
   },
   {
-    name: "ExplorEasy",
-    date: "2023-11-28",
-    cover: exploreasy,
+    name: 'Payeer',
+    date: '2022-05-01',
+    cover: payeer_web,
     links: [
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/23144020-ExplorEasy-Generative-travel-itineraries" },
-    ],
-  },
-  {
-    name: "Storybook Genie",
-    date: "2024-03-05",
-    cover: storybookgenie,
-    links: [
-      { icon: gitLink, link: "https://github.com/eduardconstantin/storybook-genie" },
-      { icon: webLink, link: "https://www.npmjs.com/package/storybook-genie" },
-    ],
-  },
-  {
-    name: "Azure Cloud Exams",
-    date: "2024-04-15",
-    cover: azurecloudexams,
-    links: [
-      { icon: gitLink, link: "https://github.com/eduardconstantin/azure-cloud-exams" },
-      {
-        icon: dribbbleLink,
-        link: "https://dribbble.com/shots/23997521-Azure-Cloud-Exams-A-Community-Driven-Open-Source-Project",
-      },
-      { icon: webLink, link: "https://nice-sky-0509a9903.2.azurestaticapps.net" },
-    ],
-  },
-  {
-    name: "Habit Hero",
-    date: "2024-07-29",
-    cover: habithero,
-    links: [
-      {
-        icon: dribbbleLink,
-        link: "https://dribbble.com/shots/24592614-Habit-Hero-Generative-scheduling-web-app",
-      },
-    ],
-  },
-  {
-    name: "Goomorphic Menu",
-    date: "2024-08-25",
-    cover: goomenu,
-    links: [
-      { icon: gitLink, link: "https://github.com/eduardconstantin/react-motion-components" },
-      {
-        icon: dribbbleLink,
-        link: "https://dribbble.com/shots/24745412-Goomorphic-Menu",
-      },
       {
         icon: webLink,
-        link: "https://react-motion-components.vercel.app/?path=/story/components-menus-goomorphic-menu--default",
-      },
-    ],
+        link: 'https://payeer.com/en/'
+      }
+    ]
   },
+  {
+    name: 'Riot',
+    date: '2022-09-18',
+    cover: riot,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://riotracers.com/'
+      }
+    ]
+  },
+  {
+    name: 'Robotos',
+    date: '2023-03-26',
+    cover: robotos,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://www.robotos.art/'
+      }
+    ]
+  },
+  {
+    name: 'Rollers',
+    date: '2023-07-17',
+    cover: rollers,
+    links: [{ icon: webLink, link: 'https://highrollersnft.com/' }]
+  },
+  {
+    name: 'Singlife',
+    date: '2023-09-11',
+    cover: singlife_web,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://singlife.com/en'
+      }
+    ]
+  },
+  {
+    name: 'Spherium',
+    date: '2023-11-28',
+    cover: spherium,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://spherium.finance/'
+      }
+    ]
+  },
+  {
+    name: 'Tired',
+    date: '2024-03-05',
+    cover: tired,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://www.tiredtroop.io/'
+      }
+    ]
+  }
 ];
 
 export const design = [
   {
-    name: "Smart Home Dashboard UI",
-    date: "2022-04-03",
-    cover: smarthome,
-    links: [{ icon: dribbbleLink, link: "https://dribbble.com/shots/17912071-Smart-Home-Dashboard-UI" }],
-  },
-  {
-    name: "God of War Concept UI",
-    date: "2022-03-13",
-    cover: godofwar,
-    links: [{ icon: dribbbleLink, link: "https://dribbble.com/shots/17710279-God-of-War-Website-design" }],
-  },
-  {
-    name: "In time Logo",
-    date: "2020-04-20",
-    cover: itlogo,
-    links: [{ icon: dribbbleLink, link: "https://dribbble.com/shots/16788202-IN-TIME-Logo-design" }],
-  },
-  {
-    name: "NY Open Offices Logo",
-    date: "2018-05-12",
-    cover: nyoologo,
-    links: [{ icon: dribbbleLink, link: "https://dribbble.com/shots/18038998-New-York-Open-Offices-Logo-design" }],
-  },
-  {
-    name: "Midnight Pulse Logo",
-    date: "2018-07-17",
-    cover: mplogo,
-    links: [{ icon: dribbbleLink, link: "https://dribbble.com/shots/18302655-Midnight-Pulse-Logo-design" }],
-  },
-  {
-    name: "Discover Romania Concept UI",
-    date: "2022-06-05",
-    cover: discoverro,
+    name: 'Crypto Forecast',
+    date: '2014-09-01',
+    cover: crypto_forecast,
     links: [
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/18413927-Discover-Romania-Landing-page" },
-      { icon: ytLink, link: "https://www.youtube.com/watch?v=vzyxaw_ryyQ" },
-    ],
+      {
+        icon: gitLink,
+        link: 'https://github.com/DeathKnight813/crypto_forcast'
+      }
+    ]
   },
   {
-    name: "Vice City Conceput UI",
-    date: "2022-08-14",
-    cover: vclp,
+    name: 'Meetmind',
+    date: '2014-09-01',
+    cover: meetmind,
     links: [
-      { icon: dribbbleLink, link: "https://dribbble.com/shots/19100552-Welcome-back-to-Vice-City-Landing-page" },
-      { icon: ytLink, link: "https://www.youtube.com/watch?v=ysBkWUQMLHQ" },
-    ],
+      {
+        icon: webLink,
+        link: 'https://meetmind.ai.dhavalcode.com/'
+      }
+    ]
   },
   {
-    name: "Vibe Now UI",
-    date: "2022-10-28",
-    cover: vibenow,
-    links: [{ icon: dribbbleLink, link: "https://dribbble.com/shots/20106594-Vibe-Now-Mobile-app-for-events" }],
+    name: 'TextShine AI',
+    date: '2014-09-01',
+    cover: textshine,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://github.com/dhavalCode/textshine.ai'
+      }
+    ]
   },
   {
-    name: "Storybook Genie",
-    date: "2024-03-05",
-    cover: storybookgenie,
-    links: [{ icon: dribbbleLink, link: "https://dribbble.com/shots/23770977-Storybook-Genie-Generative-CLI-tool" }],
+    name: 'AI Generator',
+    date: '2014-09-01',
+    cover: ai_generator,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://image-generator.dhavalcode.com/'
+      }
+    ]
   },
+  {
+    name: 'Auto-GPT',
+    date: '2014-09-01',
+    cover: autogpt,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://news.agpt.co/'
+      }
+    ]
+  }
 ];
 
 export const game = [
-  { name: "Ge Ex", date: "2014-09-01", cover: geex, links: [] },
   {
-    name: "The Last Ancient",
-    date: "2017-05-01",
-    cover: tla,
-    links: [{ icon: webLink, link: "https://halfroundgames.itch.io/the-last-ancient" }],
-  },
-  { name: "Bachelor's degree AR project", date: "2018-07-20", cover: arbachelor, links: [] },
-  { name: "Master's degree AR project", date: "2020-07-20", cover: ardissertation, links: [] },
-  {
-    name: "LG Rollable TV AR project",
-    date: "2019-01-23",
-    cover: arlgtv,
-    links: [{ icon: ytLink, link: "https://www.youtube.com/watch?v=bn69s8lOCCU&t=26s" }],
+    name: 'Appics',
+    date: '2014-09-01',
+    cover: appics,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://play.google.com/store/apps/details?id=com.appics.appics'
+      }
+    ]
   },
   {
-    name: "Oneplus 7 AR project",
-    date: "2019-05-21",
-    cover: arop7,
-    links: [{ icon: ytLink, link: "https://www.youtube.com/watch?v=188qht5Sg8k" }],
+    name: 'Bordeaux',
+    date: '2017-05-01',
+    cover: bordeaux,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://play.google.com/store/apps/details?id=com.civb.oenobordeaux&hl=en&gl=US'
+      }
+    ]
   },
   {
-    name: "Castle Escape",
-    date: "2018-12-20",
-    cover: castleescape,
-    links: [{ icon: ytLink, link: "https://www.youtube.com/watch?v=u_s-hL78goQ" }],
+    name: 'Huddle',
+    date: '2018-07-20',
+    cover: huddle,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://play.google.com/store/apps/details?id=com.huddlehealth&hl=en&gl=US'
+      }
+    ]
   },
   {
-    name: "Ghiceste cuvantul",
-    date: "2022-03-20",
-    cover: ghicicuvantul,
-    links: [{ icon: dribbbleLink, link: "https://dribbble.com/shots/19659643-Ghiceste-cuvantul-Guess-the-word" }],
+    name: 'Payeer',
+    date: '2020-07-20',
+    cover: payeer,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://play.google.com/store/apps/details?id=com.payeer&hl=en&gl=US'
+      }
+    ]
   },
+  {
+    name: 'Happy',
+    date: '2019-01-23',
+    cover: happy,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://play.google.com/store/apps/details?id=com.happyfresh.android&hl=en&gl=US'
+      }
+    ]
+  },
+  {
+    name: 'BirdsLover',
+    date: '2019-01-23',
+    cover: birdslover,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://apkcombo.com/es/birdslover/org.richit.birdslover/'
+      }
+    ]
+  },
+
+  {
+    name: 'Hospitals BD',
+    date: '2019-01-23',
+    cover: hospital,
+    links: [
+      {
+        icon: webLink,
+        link: 'https://apkcombo.com/es/hospitals-bd/org.richit.contacthospitals/'
+      }
+    ]
+  }
 ];
